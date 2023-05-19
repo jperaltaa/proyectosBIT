@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    font-family:'Concert One', cursive;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 167, 84, 0.671);
+    background-image: url(./img/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+}
+
+.img--logo{
+    width: 500px;
+}
+.container{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu--header{
+    display: flex;
+    justify-content: start;
+
+}
+
+nav li{
+    display: flex;
+    justify-content: end;
+
+}
+
+.img--banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img--banner img{
+    height: auto;
+    width: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.contenidoPrincipal{
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.seccionFooter{
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+ul {
+    list-style:none;
+}
+
+li::before{
+	content:"★";
+	margin-right:8px;
+}
+
