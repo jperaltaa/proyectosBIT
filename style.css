@@ -15,6 +15,10 @@ body{
 .img--logo{
     width: 500px;
 }
+
+header{
+    background-color: rgb(48, 48, 48);
+}
 .container{
     position: relative;
     width: 100vw;
@@ -31,6 +35,7 @@ body{
 }
 
 nav li{
+    color: aliceblue;
     display: flex;
     justify-content: end;
 
@@ -64,16 +69,24 @@ nav li{
 }
 
 .seccionFooter{
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
     position: relative;
-    width: 900px;
+    width: auto;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 80%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     justify-items: stretch;
     align-items: stretch;
+}
+
+.inf--legal{
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 ul {
