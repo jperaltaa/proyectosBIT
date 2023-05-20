@@ -11,18 +11,30 @@
 </head>
 
 <main>
+    <header>
+        <div class="container">
+            <img class="img img--logo" src="./img/marca de agua.png" alt="img-logo">
+            <nav class="menu menu--header">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="catalogo.html">Productos</a></li>
+                    <li><a href="contacto.html">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <form>
         <label for="nombreapellido">Nombre y Apellido</label>
-        <input type="text" id="nombreapellido" class="input-padron" required>
+        <input type="text" id="nombreapellido" class="input" required>
 
         <label for="correoelectronico">Correo Electrónico</label>
-        <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+        <input type="email" id="correoelectronico" class="input" required placeholder="email@dominio.com">
 
         <label for="telefono">Teléfono</label>
-        <input type="tel" id="telefono" class="input-padron" required placeholder="XXX XXX XXXX">
+        <input type="tel" id="telefono" class="input" required placeholder="XXX XXX XXXX">
 
         <label for="mensaje">Mensaje</label>
-        <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+        <textarea cols="70" rows="10" id="mensaje" class="input" required></textarea>
 
         <fieldset>
             <legend>¿Cómo le gustaría que lo contactemos?</legend>
@@ -46,35 +58,11 @@
             </select>
         </fieldset>
 
-        <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería
-            Alura?</label>
+        <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades?</label>
 
         <input type="submit" value="Enviar formulario" class="enviar">
 
     </form>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Día</th>
-                <th>Horario</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lunes</td>
-                <td>08h ~ 20h</td>
-            </tr>
-            <tr>
-                <td>Miércoles</td>
-                <td>08h ~ 20h</td>
-            </tr>
-            <tr>
-                <td>Viernes</td>
-                <td>08h ~ 20h</td>
-            </tr>
-        </tbody>
-    </table>
     <footer class="seccionFooter">
         <div class="inf inf--contacto">
             <h2>Información de contacto</h2>
