@@ -5,44 +5,41 @@ body{
     font-size: 20px;
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 167, 84, 0.671);
+    background-color: rgba(126, 124, 249, 0.535);
     background-image: url(./img/fondo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:100%;
-}
-
-.img--logo{
-    width: 500px;
+    text-align: justify;
 }
 
 header{
-    background-color: rgb(48, 48, 48);
-}
-.container{
-    position: relative;
-    width: 100vw;
-    height: auto;
+    background:rgb(255, 144, 75);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 15px 200px;
 }
 
-.menu--header{
-    display: flex;
-    justify-content: start;
-
+.img--logo{
+height: 150px;    
 }
 
-nav li{
-    color: aliceblue;
-    display: flex;
-    justify-content: end;
+a{
+    text-decoration: none;
+    color: black;
+}
 
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color:aqua;
 }
 
 .img--banner{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,50 +48,47 @@ nav li{
 .img--banner img{
     height: auto;
     width: auto;
-    max-width: 50%;
-    max-height: 50%;
+    max-height: 500px;
 }
 
 .contenidoPrincipal{
-    position: relative;
-    width: 900px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 80%;
-    grid-template-rows: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: stretch;
+    width: 940px;
+    text-align: justify;
+    margin: 40px auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+footer{
+    font-size: 15px;
 }
 
 .seccionFooter{
-    background-color: rgb(41, 41, 41);
-    color: aliceblue;
-    position: relative;
-    width: auto;
-    margin: 0 auto;
+    background-color: rgb(255, 144, 75);
+    text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: stretch;
+    height: 20rem;
+    width: auto;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: 40% 40%;
+}
+
+.inf--contacto{
+    grid-column-start: 2;
+}
+
+.inf--redes{
+    grid-column-start: 3;
 }
 
 .inf--legal{
-    display: grid;
-    justify-items: center;
-    align-items: center;
+    grid-row: 2;
+    grid-column: 2/4;
 }
 
-ul {
-    list-style:none;
+ul{
+    list-style: none;
 }
-
-li::before{
-	content:"★";
-	margin-right:8px;
-}
-
