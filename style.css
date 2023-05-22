@@ -145,6 +145,11 @@ form label, form legend{
     background: darkorange;
     transform: scale(1.2);
 }
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
 
 @media (min-width: 720px) {
     .container--nav{
